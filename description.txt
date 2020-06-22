@@ -9,6 +9,7 @@ ra                  float   8     deg      J2000 Right Ascension (r-band)
 dec                 float   8     deg      J2000 Declination (r-band)
 raErr               float   8     arcsec   Error in RA (* cos(Dec), that is, proper units)
 decErr              float   8     arcsec   Error in DecmodelMag_u  real  4     mag  better of DeV/Exp magnitude fit
+modelMag_u          real    4     mag      better of DeV/Exp magnitude fit
 modelMag_g          real    4     mag      better of DeV/Exp magnitude fit
 modelMag_r          real    4     mag      better of DeV/Exp magnitude fit
 modelMag_i          real    4     mag      better of DeV/Exp magnitude fit
@@ -83,16 +84,6 @@ deVPhi_g            real    4     deg      de Vaucouleurs fit position angle (+N
 deVPhi_r            real    4     deg      de Vaucouleurs fit position angle (+N thru E)
 deVPhi_i            real    4     deg      de Vaucouleurs fit position angle (+N thru E)
 deVPhi_z            real    4     deg      de Vaucouleurs fit position angle (+N thru E)
-deVMag_u            real    4     mag      de Vaucouleurs magnitude fit
-deVMag_g            real    4     mag      de Vaucouleurs magnitude fit
-deVMag_r            real    4     mag      de Vaucouleurs magnitude fit
-deVMag_i            real    4     mag      de Vaucouleurs magnitude fit
-deVMag_z            real    4     mag      de Vaucouleurs magnitude fit
-deVMagErr_u         real    4     mag      de Vaucouleurs magnitude fit error
-deVMagErr_g         real    4     mag      de Vaucouleurs magnitude fit error
-deVMagErr_r         real    4     mag      de Vaucouleurs magnitude fit error
-deVMagErr_i         real    4     mag      de Vaucouleurs magnitude fit error
-deVMagErr_z         real    4     mag      de Vaucouleurs magnitude fit error
 expRad_u            real    4     arcsec   Exponential fit scale radius, here defined to be the same as the half-light radius, also called the effective radius.
 expRad_g            real    4     arcsec   Exponential fit scale radius, here defined to be the same as the half-light radius, also called the effective radius.
 expRad_r            real    4     arcsec   Exponential fit scale radius, here defined to be the same as the half-light radius, also called the effective radius.
@@ -118,16 +109,6 @@ expPhi_g            real    4     deg      Exponential fit position angle (+N th
 expPhi_r            real    4     deg      Exponential fit position angle (+N thru E)
 expPhi_i            real    4     deg      Exponential fit position angle (+N thru E)
 expPhi_z            real    4     deg      Exponential fit position angle (+N thru E)
-expMag_u            real    4     mag      Exponential fit magnitude
-expMag_g            real    4     mag      Exponential fit magnitude
-expMag_r            real    4     mag      Exponential fit magnitude
-expMag_i            real    4     mag      Exponential fit magnitude
-expMag_z            real    4     mag      Exponential fit magnitude
-expMagErr_u         real    4     mag      Exponential fit magnitude error
-expMagErr_g         real    4     mag      Exponential fit magnitude error
-expMagErr_r         real    4     mag      Exponential fit magnitude error
-expMagErr_i         real    4     mag      Exponential fit magnitude error
-expMagErr_z         real    4     mag      Exponential fit magnitude error
 extinction_u        real    4     mag      Extinction in u-band
 extinction_g        real    4     mag      Extinction in g-band
 extinction_r        real    4     mag      Extinction in r-band
