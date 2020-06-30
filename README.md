@@ -2,8 +2,10 @@
 **Mentor**: Mario Agustín Sgró
 
 **Enlaces a los repositorios de los mentoreados**
-[Grupo 1] (https://github.com/bvaldeiglesias/astrodatos_grp_1)
-[Grupo 2] (https://github.com/leoborgnino/mentoria-astro-datos)
+
+[Grupo 1](https://github.com/bvaldeiglesias/astrodatos_grp_1)
+
+[Grupo 2](https://github.com/leoborgnino/mentoria-astro-datos)
 
 ![Sloan Digital Sky Server ><](./images/sloan.svg)
 
