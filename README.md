@@ -1,6 +1,12 @@
 # Mapeando el Universo
 **Mentor**: Mario Agustín Sgró
 
+**Enlaces a los repositorios de los mentoreados**
+
+[Grupo 1](https://github.com/bvaldeiglesias/astrodatos_grp_1)
+
+[Grupo 2](https://github.com/leoborgnino/mentoria-astro-datos)
+
 ![Sloan Digital Sky Server ><](./images/sloan.svg)
 
 ## Descripción
@@ -63,4 +69,6 @@ Aquí iremos describiendo los diferentes trabajos prácticos.. por el momento so
   Haciendo uso de los espectros se realizará una descomposición de componentes principales y se propondrá la utilización de algoritmos de clustering para analizar la población de galaxias. 
 
 * 6/11/2020 – 7/11/2020 presentación de mentorías
+
+
 
